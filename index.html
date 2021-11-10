@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floricultura</title>
+    <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="artigo.html">Artigos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="textBox">
+                <h2>Para colorir e perfumar sua vida<br>Flores para <span>você</span></h2>
+                <p>O segredo é se permitir florescer!</p>
+                <a href="artigo.html">Leia Mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="floricultura">
+            </div>
+        </div>
+
+        <ul class="flores">
+            <li><img src="images/flor1.png" onclick="slider('images/flor1.png');changeColor('#fa548c')" ></li>
+            <li><img src="images/flor2.png" onclick="slider('images/flor2.png');changeColor('#9b03af')" ></li>
+            <li><img src="images/flor3.png" onclick="slider('images/flor3.png');changeColor('#2dcbf3')" ></li>
+        </ul>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
